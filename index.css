@@ -1,3 +1,7 @@
+body{
+    background-image: url(https://plus.unsplash.com/premium_photo-1720088023157-850216c1d152?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fHNvZnR3YXJlJTIwZGVzaWdufGVufDB8fDB8fHww);
+display: flex;
+}
 .hlinks li{
     display:inline-flex;
     border-radius:15px;

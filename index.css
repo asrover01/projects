@@ -1,3 +1,21 @@
-.hlinks{
-  display:inline-flex;
-}
+.hlinks li{
+    display:inline-flex;
+    border-radius:15px;
+    box-shadow:0 9px grey;
+    margin:12px;
+    padding:5px;
+    border:1px solid black;
+    
+    flex-direction: row;
+  }
+  .hlinks li:hover{
+    cursor:pointer;
+    color:black;
+    text-decoration:solid;
+  }
+ .hlinks li:active{
+    background-color:darkblue;
+    box-shadow:0 1px black;
+    color:white;
+   
+  }

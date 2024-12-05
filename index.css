@@ -5,13 +5,15 @@
     margin:12px;
     padding:5px;
     border:1px solid black;
-    
+    text-decoration: none;
+    color: black;
     flex-direction: row;
+    background-color: antiquewhite;
   }
   .hlinks li:hover{
     cursor:pointer;
     color:black;
-    text-decoration:solid;
+    background-color: cadetblue;
   }
  .hlinks li:active{
     background-color:darkblue;

@@ -1,0 +1,117 @@
+.container{
+    border: 2px solid black;
+    text-align: left;
+   margin: 5px;
+}
+.color-chart{
+  text-align: center;
+   display: inline;
+   width: 100%;
+   
+}
+.color-box-blue{
+    background-color: #2d5dcc;
+   display: inline-block;
+   width: 20%;
+   
+   
+}
+.color-box-red{
+    background-color: #990000;
+    display: inline-block;
+    width: 20%;
+   
+}
+.color-box-brown{
+    background-color: #996515;
+    display: inline-block;
+    width: 20%;
+    
+}
+.color-box-green{
+    background-color: #00cc99;
+    display: inline-block;
+    width: 20%;
+    
+}
+.color-box-biege{
+    background-color: #a67b5b;
+    display: inline-block;
+    width: 20%;
+    
+}
+.font-panel{
+    display: inline-block;
+    width: 32%;
+    
+}
+div{
+    margin: 5px;
+    display: block;
+}
+#font-panel-courier-prime{
+    font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;;
+    
+}
+.font-label-courier-prime{
+text-decoration: underline;
+}
+.regular-courier-prime{
+
+}
+.bold-courier-prime{
+font-weight: bold;
+}
+.italic-courier-prime{
+font-style: italic;
+;
+}
+
+
+.font-label-lato{
+    font-family: "Lato", sans-serif;
+    text-decoration: underline;
+}
+.regular-lato{
+
+}
+.bold-lato{
+font-weight: bold;
+}
+.italic-lato{
+font-style: italic;
+;
+}
+.font-label-modern-antiqua{
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+.regular-modern-antiqua{
+
+}
+.bold-modern-antiqua{
+font-weight: bold;
+}
+.italic-modern-antiqua{
+font-style: italic;
+;
+}
+.main-header{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Courier Prime', monospace;
+}
+.subheader{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Lato;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Modern Antiqua';
+}

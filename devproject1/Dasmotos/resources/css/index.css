@@ -1,0 +1,67 @@
+.background{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+        height: 100px;
+        top: 2px;
+}
+
+body{
+    font-family: Helvetica;
+    background-image: url(https://static.fabrik.io/1f82/79b2c5841e41c654.jpeg?lossless=1&w=2560&fit=crop&crop=faces%2Centropy&s=b5a4725aeb4e8a7411409030f6441fc7);
+    height: 1000px;
+    
+}
+
+.main-header{
+    font-size: 50px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center ;
+    padding-top: 20px;
+    
+}
+p{
+    font-weight: bold;
+    margin-right: 30%;
+}
+h3{
+    
+    font-size: 20px;
+}
+.pagetext{
+    background-color: whitesmoke;
+}
+.pagetext1{
+    margin-right: 87%;
+    background-color: whitesmoke;
+}
+.pagetext2{
+    margin-right: 85%;
+    background-color: whitesmoke;
+}
+.pagetext3{
+    margin-right: 85%;
+    background-color: whitesmoke;
+}
+.header{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+#brushes{
+    background-color: mediumspringgreen;
+    margin-top: 20px;
+}
+#frames{
+    background-color: lightcoral;
+}
+#paint{
+    background-color: skyblue;
+}
+.pricing{
+    font-weight: bold;
+    color: blue;
+}
+.image-group{
+    border: 1px solid black;
+}
+

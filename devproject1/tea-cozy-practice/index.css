@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    text-align: center;
+    display:block;
+    font-family:  Helvetica;
+    
+    opacity: 0.9;
+   box-sizing: border-box;
+}
+body{
+flex-wrap: wrap;
+text-align: center;
+background-color: black;
+font-size: 22px;
+
+ }  
+
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+
+.header{
+    background-color: black;
+    
+    position:fixed;
+    opacity: 1;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    
+    
+   
+}   
+#logo{
+    margin-top: 10px;
+    height: 50px;
+    width: fit-content;
+    float: left;
+   
+    
+}
+.header a{
+ float: right; 
+   
+    
+   
+}  
+.box{
+margin-top: 2%;
+margin-right:5%;  
+   
+   
+   
+}
+.ourmission{
+    top: 50px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 700px;
+    position: relative;
+}
+.background{
+    position: relative;
+    top:50%;
+    background-color: black;
+    padding: 5px;
+}
+.tea-month-banner{
+    margin-top: 150px;
+   
+    
+    
+}
+.tea-month {
+   margin-top: 25px;
+   align-items: center;
+   display: flex;
+   flex-flow: wrap;
+   padding: 0 100px 0 100px;
+   
+    
+    
+}
+.berry{
+    
+}
+.tea-month div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    flex-direction: column;
+    width: 300px;
+    margin: 15px 40px;
+    opacity: 1px;
+    line-height: 60px;
+    align-content: center;
+}
+
+h2{
+    font-size: h2;
+    margin-bottom: 15px;
+} 
+.locations{
+  height: 600px;
+  margin: 30px 20px 0;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.locations h2{
+    position: relative;
+    top: 100px;
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+}
+#location-labels{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0px;
+}
+.address{
+opacity: 1;
+  width: 300px;
+  height: 300px;
+  margin: 0px 20px 0;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  line-height: 300%;
+}
+footer{
+    height: 250px;
+}
+.contact{
+    height: 200px;
+
+}
+
+.contact h2{
+    margin-top: 10px;
+}
+.contact p{
+    margin-top: 30px;
+
+}
+.copyright{
+    text-align: left;
+    font-size: small;
+    margin-left: 20px;
+}

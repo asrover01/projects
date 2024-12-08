@@ -26,7 +26,7 @@ h1, p{
     padding:5px;
     border:1px solid black;
     text-decoration: none;
-    color: black;
+    
     flex-direction: row;
     background-color: antiquewhite;
     
@@ -39,6 +39,5 @@ h1, p{
  .hlinks li:active{
     background-color:darkblue;
     box-shadow:0 1px black;
-    color:white;
-   
+    color:white;  
   }

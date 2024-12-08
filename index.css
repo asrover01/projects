@@ -3,7 +3,7 @@ background-image: url(https://images.unsplash.com/photo-1650600538903-ec09f670c3
 display: grid;
 grid-template-columns: 1fr;
 }
-div{
+main{
   display: flex;
   flex-direction: column;
   align-items: center;  

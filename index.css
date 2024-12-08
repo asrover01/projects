@@ -2,21 +2,24 @@ body{
 background-image: url(https://images.unsplash.com/photo-1650600538903-ec09f670c391?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);   
 display: grid;
 grid-template-columns: 1fr;
+
 }
-main{
+div{
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
+  
 }
 h1, p{
   background-color:whitesmoke;
-  width:fit-content ; 
+  width:fit-content ;
+  
+
+  
 }
 
 .hlinks li{
-    display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width:fit-content;
+    display:inline-flex;
     border-radius:15px;
     box-shadow:0 9px grey;
     margin:12px;
@@ -25,7 +28,8 @@ h1, p{
     text-decoration: none;
     color: black;
     flex-direction: row;
-    background-color: antiquewhite;   
+    background-color: antiquewhite;
+    
   }
   .hlinks li:hover{
     cursor:pointer;
@@ -36,4 +40,5 @@ h1, p{
     background-color:darkblue;
     box-shadow:0 1px black;
     color:white;
+   
   }

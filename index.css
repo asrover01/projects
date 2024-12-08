@@ -1,8 +1,7 @@
 body{
-    background-image: url(projects/coding_background_1200x1200.webp);
+    background-image: url(https://asrover01.github.io/projects/coding_background_1200x1200.webp);
 display: block;
-   background-size: cover;
-    background-repeat: no-repeat;
+
 }
 .hlinks li{
     display:inline-flex;

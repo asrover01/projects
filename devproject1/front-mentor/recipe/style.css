@@ -23,11 +23,7 @@ html{
     background-color: var(--Stone-100);
 }
 
-@media only screen and (max-width:500px) {
-    body{
-       width: 95%;
-    }
-}
+
 
 @media only screen and (min-width:376px) {
    
@@ -142,7 +138,11 @@ header img{
   }
 }
 }
-
+@media only screen and (max-width:500px) {
+    body{
+       width: 95%;
+    }
+}
 @media only screen and (max-width:375px) {
  *{
     font-family: sans-serif;

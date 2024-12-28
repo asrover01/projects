@@ -23,9 +23,7 @@ html{
     background-color: var(--Stone-100);
 }
 
-
-
-@media only screen and (min-width:401px) {
+@media only screen and (min-width:376px) {
    
 
 body{
@@ -38,9 +36,9 @@ font-family: sans-serif;
 
 width:80%;
 justify-self: center;
-
-margin: 5% 10% 10%  ;
-
+/*align-self: center;*/
+margin: 5% 10% ;
+top: 50px;
 border-radius:40px;
 
 
@@ -63,20 +61,20 @@ header{
    
 }
 header img{
-    margin:20px 10px;
+    margin:1vw 1vw;
     width:100%;
     border-radius:  20px;
     justify-self: center;
 }
 #recipe{
-    margin-left: 20px;
+    margin-left: 2vw;
 }
 #prep{
     background-color:var(--Rose-50);
-    padding-left: 5%;
+    padding-left: 10vw;
     height: 200px;
     width: auto;
-    margin: 50px 0 10px 20px;
+    margin: 50px 0 2vw 2vw;
     padding-top: 10px;
     line-height: 2.5em;
     align-items: center;
@@ -86,7 +84,7 @@ header img{
     }
 }
 #ingredients{
-    margin: 30px 0 40px 20px;
+    margin: 30px 0 40px 2vw;
     padding-bottom: 30px;
     line-height:  2.5em;
     border-bottom: 2px solid var(--Stone-150);
@@ -95,14 +93,14 @@ header img{
     }
 }
 #instructions{
-    margin-left: 20px;
+    margin-left: 2vw;
    padding-bottom: 30px;
     line-height: 2.5em;
     border-bottom: 2px solid var(--Stone-150);
    
     ol{
         line-height: 1.5;
-        margin-left:20px;
+        margin-left:2vw;
     
     }
     li{
@@ -124,7 +122,7 @@ header img{
    margin-bottom: 30px;
   display: grid;
   grid-template:repeat(4,30px)/ 1fr 1fr ; 
- row-gap:30px;
+ row-gap:1em;
   p{
      
   border-bottom: 2px solid var(--Stone-150);
@@ -138,7 +136,6 @@ header img{
   }
 }
 }
-
 @media only screen and (max-width:400px) {
  *{
     font-family: sans-serif;

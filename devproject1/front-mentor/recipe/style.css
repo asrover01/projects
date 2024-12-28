@@ -138,12 +138,8 @@ header img{
   }
 }
 }
-@media only screen and (max-width:500px) {
-    body{
-       width: 95%;
-    }
-}
-@media only screen and (max-width:375px) {
+
+@media only screen and (max-width:400px) {
  *{
     font-family: sans-serif;
  }

@@ -1,0 +1,261 @@
+:root{
+    /*colors*/
+    --White: hsl(0, 0%, 100%);
+
+   --Stone-100: hsl(30, 54%, 90%);
+   --Stone-150: hsl(30, 18%, 87%);
+   --Stone-600: hsl(30, 10%, 34%);
+   --Stone-900: hsl(24, 5%, 18%);
+    
+    --Brown-800: hsl(14, 45%, 36%);
+    
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+    
+    
+}   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: var(--Stone-100);
+}
+@media only screen and (min-width:376px) {
+   
+
+body{
+   
+    display:grid;
+  
+    padding: 10px 30px;
+  background-color: var(--White); 
+font-family: sans-serif;
+
+width:80%;
+justify-self: center;
+align-self: center;
+margin: 10% 10% ;
+
+border-radius:40px;
+
+
+}
+
+h1, h2{
+    font-family: "Young Serif",  sans-serif;
+    letter-spacing: 1px;
+}
+h2{
+    color: var(--Brown-800);
+}
+
+body p{
+    font-size: 16px;
+    
+}
+header{
+    display:block ;
+   
+}
+header img{
+    margin:20px 10px;
+    width:100%;
+    border-radius:  20px;
+    justify-self: center;
+}
+#recipe{
+    margin-left: 20px;
+}
+#prep{
+    background-color:var(--Rose-50);
+    padding-left: 5%;
+    height: 200px;
+    width: auto;
+    margin: 50px 0 10px 20px;
+    padding-top: 10px;
+    line-height: 2.5em;
+    align-items: center;
+    border-radius: 20px;
+    h2{
+        color: var(--Rose-800);
+    }
+}
+#ingredients{
+    margin: 30px 0 40px 20px;
+    padding-bottom: 30px;
+    line-height:  2.5em;
+    border-bottom: 2px solid var(--Stone-150);
+    ul{
+        margin-left: 20px;
+    }
+}
+#instructions{
+    margin-left: 20px;
+   padding-bottom: 30px;
+    line-height: 2.5em;
+    border-bottom: 2px solid var(--Stone-150);
+   
+    ol{
+        line-height: 1.5;
+        margin-left:20px;
+    
+    }
+    li{
+       margin-top: 10px;
+    }
+}
+#nutrition{
+    h2{
+        margin-top: 50px
+    }
+}
+#nutrition{
+    h2{
+        margin-bottom: 30px;
+    }
+} 
+#calories{
+    margin-top: 20px;
+   margin-bottom: 30px;
+  display: grid;
+  grid-template:repeat(4,30px)/ 1fr 1fr ; 
+ row-gap:30px;
+  p{
+     
+  border-bottom: 2px solid var(--Stone-150);
+  }
+  .end{
+    border-bottom: 0;
+  }
+  .per100g{
+        color:var(--Rose-800);
+        font-weight: bold;
+  }
+}
+}
+
+@media only screen and (max-width:375px) {
+ *{
+    font-family: sans-serif;
+ }
+ html{
+    background-color: var(--White);
+ }
+    body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    background-color: var(--White);
+    border-radius: 0;
+    font-size: 14px;
+     } 
+     h1, h2{
+        font-family: "Young Serif",  sans-serif;
+        font-weight: 400;
+    }
+    h2{
+        color: var(--Brown-800);
+    }
+    p{
+        font-family:   sans-serif;
+    }
+  
+ img{
+    width: 100%;
+    border-radius: 0;
+    }
+    #recipe{
+        margin:30px 25px;
+        p{
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+    }
+ #prep{
+   
+    background-color:var(--Rose-50);
+    padding-left: 5%;
+    height: auto;
+    width: auto;
+    margin: 50px 50px 0 20px;
+
+    padding:10px 10px;
+    line-height: 2.5em;
+    align-items: center;
+    border-radius: 20px;
+    h2{
+      font-family: sans-serif; 
+      font-size: 16px;
+      font-weight: 600;
+        color: var(--Rose-800);
+    }
+    li{
+        margin-left: 20px;
+        line-height: 1.5rem;
+        font-family: sans-serif;
+    }
+}
+#ingredients{
+    margin: 30px 0 40px 20px;
+    padding-bottom: 30px;
+    line-height: 1.5em;
+    border-bottom: 2px solid var(--Stone-150);
+    ul{
+        margin: 20px 20px 10px;
+        font-family: sans-serif;
+    }
+}
+#instructions{
+    margin-left: 20px;
+   padding-bottom: 30px;
+    line-height: 2.5em;
+    border-bottom: 2px solid var(--Stone-150);
+   
+    ol{
+        line-height: 1.5em;
+        margin-left:20px;
+    
+    }
+    li{
+       margin-top: 10px;
+    }
+}
+#nutrition{
+    h2{
+        margin-top: 50px
+    }
+}
+#nutrition{
+    h2{
+        margin-bottom: 30px;
+    }
+} 
+#nutrition{
+    margin:0 10px 20px
+}
+#calories{
+    margin: 20px 10px;
+   
+  display: grid;
+  grid-template:repeat(4,30px)/ 1fr 1fr ; 
+ row-gap:30px;
+  p{
+     text-align: center;
+  border-bottom: 2px solid var(--Stone-150);
+  }
+  .end{
+    border-bottom:0;
+   
+  }
+}
+.per100g{
+      color:var(--Rose-800);
+      font-weight: bold;
+}
+
+
+}

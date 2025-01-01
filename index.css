@@ -13,7 +13,10 @@ display: flex;
 h1, p{
   background-color:whitesmoke;
   width:fit-content ;
-  
+ img{
+   height:80px;
+   width:auto;
+ }
 
   
 }

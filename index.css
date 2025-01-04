@@ -20,20 +20,17 @@ body{
               
     }
     .hlinks{
-        display: flex;
-        flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      margin-top: 5vw;
     }
      a{
-        display: inline-flex;
-        flex-direction: row;
-        justify-items:first baseline;
-        justify-content:space-evenly;
+       
       background-color: bisque;
-        margin: 5%;
+        margin: 2%;
         padding: 2%;
-        width:30%;
+        width:20%;
         border-radius: 5px;
-        font-size: 3rem;
         
     }
     
@@ -52,8 +49,8 @@ body{
       @media only screen and (max-width:600px) {
   a{
         width: 40%;
-        height: 15vw;
-        font-size: 5vw;
+        height: 9rem;
+        font-size: 3rem;
       
      
     }

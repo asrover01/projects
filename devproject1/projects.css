@@ -46,12 +46,17 @@ body{
         color:white;  
       }
 
-      @media only screen and (max-width:600px) {
+      @media only screen and (max-width:700px) {
   a{
-        width: 40%;
+        width: 90%;
         height: 9rem;
         font-size: 3rem;
+        align-content: center;
       
      
+    }
+    .hlinks{
+      display: flex;
+      flex-direction: column;
     }
       }

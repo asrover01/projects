@@ -20,6 +20,7 @@ header{
     height: 69px;
     align-items: center;
     border-bottom: 1px solid seashell;
+    widthe:100%;
 }
 #logo{
     height: 50px;

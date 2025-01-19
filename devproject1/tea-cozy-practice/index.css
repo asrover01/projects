@@ -42,6 +42,9 @@ header nav{
      width: 90%;
     background-repeat: no-repeat;
 }
+.ourmission .background{
+ padding: 1rem 0.5rem;
+}
 .tea-month-banner{
    
     display: flex;

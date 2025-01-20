@@ -22,6 +22,7 @@ header{
     border-bottom: 1px solid seashell;
     width:100%;
 }
+
 #logo{
     height: 50px;
     margin-left: 10px;
@@ -35,13 +36,17 @@ header nav{
 .ourmission{
     height: 700px;
     background-image: url(img/mission.jpg);
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
-     width: auto;
     background-repeat: no-repeat;
+    text-align: center;
+    border-image-width: 100%;
+   
+    
 }
+
 .ourmission .background{
  padding: 1rem 0.5rem;
 }

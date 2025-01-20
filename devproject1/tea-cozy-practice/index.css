@@ -39,7 +39,7 @@ header nav{
     flex-direction: column;
     justify-content: center;
    
-     width: 90%;
+     width: auto;
     background-repeat: no-repeat;
 }
 .ourmission .background{

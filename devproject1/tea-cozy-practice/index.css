@@ -38,7 +38,7 @@ header nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left:  10%;
+   
      width: 90%;
     background-repeat: no-repeat;
 }

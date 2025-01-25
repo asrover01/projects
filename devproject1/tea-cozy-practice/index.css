@@ -11,6 +11,9 @@
     text-align: center;
     justify-items: center;
 }
+body{
+    width: 100%;
+}
  h2{
     font-size: 30px;
 }
@@ -19,10 +22,9 @@ header{
     justify-content: space-between;
     height: 69px;
     align-items: center;
+    width: 100%;
     border-bottom: 1px solid seashell;
-    width:100%;
 }
-
 #logo{
     height: 50px;
     margin-left: 10px;
@@ -35,18 +37,20 @@ header nav{
 }
 .ourmission{
     height: 700px;
-    background-image: url(img/mission.jpg);
-    width: auto;
+    background-image: url(img/img-mission-background.webp);
+    background-size: cover;
+    width: 90%;
+    border: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
     text-align: center;
     border-image-width: 100%;
+    border-radius: 10px;
    
     
 }
-
 .ourmission .background{
  padding: 1rem 0.5rem;
 }
@@ -69,6 +73,7 @@ header nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 80%;
 }
 .tea{
     margin: 10px;
@@ -77,14 +82,18 @@ header nav{
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 .locations{
     background-image: url(img/img-locations-background.webp);
     height: 500px;
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
    justify-content: center;
+   border-radius: 10xp;
+   margin-bottom: 1rem;
+   
 }
 .locations h2{
     background-color: unset;
@@ -100,6 +109,7 @@ header nav{
     height: 300px;
     line-height: 3rem;
     opacity: 1;
+    border-radius: 10px;
 }
 .contact{
     height: 200px;

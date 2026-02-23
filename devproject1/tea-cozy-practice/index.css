@@ -46,7 +46,7 @@ padding: 1em 0.8em;
     border-radius: 20px;
 }
 .locations{
-    background-image: url(./img/img-location.webp);
+    background-image: url(./img/img-locations-background.webp);
     object-fit: cover;
     padding:1rem;
 }
@@ -108,3 +108,4 @@ padding: 1em 1em;
     padding:1rem
 }
 }
+

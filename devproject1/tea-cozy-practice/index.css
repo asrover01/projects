@@ -72,9 +72,12 @@ padding: 1em 0.8em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+     align-items:center;
     padding:0.5rem 1rem;
  }
-
+.logo{
+    width:5rem;
+}
  nav{
     flex-direction: row;
  }
@@ -108,4 +111,5 @@ padding: 1em 1em;
     padding:1rem
 }
 }
+
 
